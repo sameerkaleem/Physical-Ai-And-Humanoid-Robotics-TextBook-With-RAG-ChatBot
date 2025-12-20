@@ -1,2 +1,2 @@
-# Physical-Ai---Humanoid-Robotics-TextBook-With-RAG-ChatBot
+# Physical-Ai-And-Humanoid-Robotics-TextBook-With-RAG-ChatBot
 Developed a Docusaurus textbook using Claude Code &amp; Spec-Kit Plus for spec-driven dev. Integrated a RAG chatbot: Gemini (LLM), Cohere (embeddings), Qdrant (vector search), and Neon (Postgres). Hosted on Railway for infra management. Focused on high-performance semantic retrieval, structured content generation, and persistent metadata storage.
