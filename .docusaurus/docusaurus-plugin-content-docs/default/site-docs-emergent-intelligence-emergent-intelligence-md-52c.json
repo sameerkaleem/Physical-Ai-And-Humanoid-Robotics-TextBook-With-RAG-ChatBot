@@ -1,0 +1,22 @@
+{
+  "id": "emergent-intelligence/emergent-intelligence",
+  "title": "Emergent Intelligence",
+  "description": "Physical Intuition (The \"Why\")",
+  "source": "@site/docs/emergent-intelligence/emergent-intelligence.md",
+  "sourceDirName": "emergent-intelligence",
+  "slug": "/emergent-intelligence/",
+  "permalink": "/docs/emergent-intelligence/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sameerkaleem/docs/emergent-intelligence/emergent-intelligence.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Emergent Intelligence"
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Physical Interaction",
+    "permalink": "/docs/physical-interaction/"
+  }
+}

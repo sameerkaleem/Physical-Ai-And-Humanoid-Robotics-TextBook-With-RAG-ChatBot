@@ -1,0 +1,26 @@
+{
+  "id": "physical-interaction/physical-interaction",
+  "title": "Physical Interaction",
+  "description": "Physical Intuition (The \"Why\")",
+  "source": "@site/docs/physical-interaction/physical-interaction.md",
+  "sourceDirName": "physical-interaction",
+  "slug": "/physical-interaction/",
+  "permalink": "/docs/physical-interaction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sameerkaleem/docs/physical-interaction/physical-interaction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Physical Interaction"
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Control Loops",
+    "permalink": "/docs/control-loops/"
+  },
+  "next": {
+    "title": "Emergent Intelligence",
+    "permalink": "/docs/emergent-intelligence/"
+  }
+}

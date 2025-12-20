@@ -1,0 +1,96 @@
+openapi: 3.0.0
+info:
+  title: RAG Chatbot API
+  version: 1.0.0
+  description: API for the Physical AI & Humanoid Robotics textbook RAG chatbot
+
+paths:
+  /chat:
+    post:
+      summary: Submit a question and receive an answer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - question
+              properties:
+                question:
+                  type: string
+                  description: The user's question about the textbook content
+                  example: "Can you explain the concept of inverse kinematics?"
+                session_id:
+                  type: string
+                  description: Unique identifier for the chat session
+                  example: "abc123-def456"
+                selection_context:
+                  type: string
+                  description: Text that was highlighted by the user (if applicable)
+                  example: "Inverse kinematics is the mathematical process of determining the joint parameters..."
+      responses:
+        '200':
+          description: Successful response with an answer
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  answer:
+                    type: string
+                    description: The AI-generated answer to the question
+                    example: "Inverse kinematics is a mathematical process used in robotics and computer animation..."
+                  sources:
+                    type: array
+                    items:
+                      type: string
+                    description: List of source chunks used to generate the answer
+                  session_id:
+                    type: string
+                    description: The session identifier (newly created if not provided)
+        '400':
+          description: Bad request - invalid input
+        '500':
+          description: Internal server error
+  /health:
+    get:
+      summary: Check the health status of the service
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "healthy"
+                  timestamp:
+                    type: string
+                    format: date-time
+  /feedback:
+    post:
+      summary: Submit feedback on an answer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - answer_id
+                - rating
+              properties:
+                answer_id:
+                  type: string
+                  description: The ID of the answer being rated
+                  example: "xyz789-uvw012"
+                rating:
+                  type: string
+                  enum: [positive, negative]
+                  description: User's rating of the answer
+                comment:
+                  type: string
+                  description: Optional comment explaining the rating

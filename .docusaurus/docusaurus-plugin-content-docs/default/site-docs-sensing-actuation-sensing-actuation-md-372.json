@@ -1,0 +1,22 @@
+{
+  "id": "sensing-actuation/sensing-actuation",
+  "title": "Sensing & Actuation",
+  "description": "Physical Intuition (The \"Why\")",
+  "source": "@site/docs/sensing-actuation/sensing-actuation.md",
+  "sourceDirName": "sensing-actuation",
+  "slug": "/sensing-actuation/",
+  "permalink": "/docs/sensing-actuation/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sameerkaleem/docs/sensing-actuation/sensing-actuation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Sensing & Actuation"
+  },
+  "sidebar": "textbookSidebar",
+  "next": {
+    "title": "Control Loops",
+    "permalink": "/docs/control-loops/"
+  }
+}

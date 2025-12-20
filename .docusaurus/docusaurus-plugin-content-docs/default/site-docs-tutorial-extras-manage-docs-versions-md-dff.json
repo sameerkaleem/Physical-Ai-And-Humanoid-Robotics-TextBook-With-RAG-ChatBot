@@ -1,0 +1,18 @@
+{
+  "id": "tutorial-extras/manage-docs-versions",
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/manage-docs-versions",
+  "permalink": "/Physical-AI-And-Humanoid-Robotics-Claude-Code-CLI.github.io/docs/tutorial-extras/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sameerkaleem/Physical-AI-And-Humanoid-Robotics-Claude-Code-CLI/docs/tutorial-extras/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}

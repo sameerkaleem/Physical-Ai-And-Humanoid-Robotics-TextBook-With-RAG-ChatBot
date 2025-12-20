@@ -1,0 +1,26 @@
+{
+  "id": "control-loops/control-loops",
+  "title": "Control Loops",
+  "description": "Physical Intuition (The \"Why\")",
+  "source": "@site/docs/control-loops/control-loops.md",
+  "sourceDirName": "control-loops",
+  "slug": "/control-loops/",
+  "permalink": "/docs/control-loops/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sameerkaleem/docs/control-loops/control-loops.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Control Loops"
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Sensing & Actuation",
+    "permalink": "/docs/sensing-actuation/"
+  },
+  "next": {
+    "title": "Physical Interaction",
+    "permalink": "/docs/physical-interaction/"
+  }
+}

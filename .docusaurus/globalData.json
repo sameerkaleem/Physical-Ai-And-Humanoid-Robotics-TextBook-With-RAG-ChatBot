@@ -1,0 +1,48 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "sensing-actuation/sensing-actuation",
+          "docs": [
+            {
+              "id": "control-loops/control-loops",
+              "path": "/docs/control-loops/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "emergent-intelligence/emergent-intelligence",
+              "path": "/docs/emergent-intelligence/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "physical-interaction/physical-interaction",
+              "path": "/docs/physical-interaction/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "sensing-actuation/sensing-actuation",
+              "path": "/docs/sensing-actuation/",
+              "sidebar": "textbookSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "textbookSidebar": {
+              "link": {
+                "path": "/docs/sensing-actuation/",
+                "label": "sensing-actuation/sensing-actuation"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

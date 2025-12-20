@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+cohere
+qdrant-client
+asyncpg
+python-dotenv
+pydantic
+openai-agents
+flask
+requests
+trafilatura
