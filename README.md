@@ -1,4 +1,4 @@
-<img src="TextBook-With-RAG-ChatBot.png" alt="" width="600">
+<img src="TextBook-With-RAG-ChatBot.png" alt="" width="800">
 
 # Physical AI and Humanoid Robotics Textbook with RAG Chatbot
 
