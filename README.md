@@ -1,3 +1,5 @@
+<img src="sameerkaleem-Physical-Ai-And-Humanoid-Robotics-TextBook-With-RAG-ChatBot.png" alt="" width="600">
+
 # Physical AI and Humanoid Robotics Textbook with RAG Chatbot
 
 This is a comprehensive textbook on Physical AI and Humanoid Robotics featuring an integrated RAG (Retrieval Augmented Generation) chatbot for enhanced learning.
