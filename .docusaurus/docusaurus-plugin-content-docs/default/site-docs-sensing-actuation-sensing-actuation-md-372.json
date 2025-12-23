@@ -15,6 +15,10 @@
     "title": "Sensing & Actuation"
   },
   "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/introduction"
+  },
   "next": {
     "title": "Control Loops",
     "permalink": "/docs/control-loops/"

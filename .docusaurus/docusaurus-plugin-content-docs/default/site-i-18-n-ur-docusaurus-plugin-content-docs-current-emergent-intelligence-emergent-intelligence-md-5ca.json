@@ -1,0 +1,22 @@
+{
+  "id": "emergent-intelligence/emergent-intelligence",
+  "title": "ابھرتی ہوئی ذہانت",
+  "description": "جسمانی انٹیویشن ( \"کیوں\")",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/emergent-intelligence/emergent-intelligence.md",
+  "sourceDirName": "emergent-intelligence",
+  "slug": "/emergent-intelligence/",
+  "permalink": "/ur/docs/emergent-intelligence/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sameerkaleem/docs/emergent-intelligence/emergent-intelligence.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ابھرتی ہوئی ذہانت"
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "جسمانی تعامل",
+    "permalink": "/ur/docs/physical-interaction/"
+  }
+}

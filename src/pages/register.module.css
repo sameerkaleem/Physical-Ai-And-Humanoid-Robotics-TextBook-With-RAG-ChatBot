@@ -1,0 +1,126 @@
+.registerPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 2rem 0;
+}
+
+.registerContainer {
+  background: var(--ifm-background-surface-color);
+  border-radius: var(--ifm-global-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.registerHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.registerHeader h1 {
+  color: var(--ifm-heading-color);
+  margin-bottom: 0.5rem;
+}
+
+.registerHeader p {
+  color: var(--ifm-color-emphasis-600);
+  margin: 0;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: var(--ifm-font-weight-semibold);
+  color: var(--ifm-label-color);
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-global-radius);
+  font-size: 1rem;
+  background-color: var(--ifm-input-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 2px var(--ifm-color-primary-lightest);
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: var(--ifm-global-radius);
+  font-size: 1rem;
+  font-weight: var(--ifm-font-weight-semibold);
+  cursor: pointer;
+  transition: all var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.buttonPrimary {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+.buttonPrimary:hover:not(:disabled) {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+.buttonPrimary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  color: var(--ifm-color-danger);
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background-color: var(--ifm-color-danger-background);
+  border-radius: var(--ifm-global-radius);
+  border-left: 3px solid var(--ifm-color-danger);
+}
+
+.loginLink {
+  text-align: center;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.loginLink p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.link {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-weight: var(--ifm-font-weight-semibold);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode specific styles */
+html[data-theme='dark'] .registerContainer {
+  background-color: var(--ifm-background-surface-color);
+  border-color: var(--ifm-color-emphasis-700);
+}
+
+html[data-theme='dark'] .input {
+  background-color: var(--ifm-input-background-color);
+  border-color: var(--ifm-color-emphasis-700);
+}

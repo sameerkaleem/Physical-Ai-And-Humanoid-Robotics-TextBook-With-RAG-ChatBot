@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 
 const config = {
-  title: 'Physical AI & Humanoid Robotics with RAG Chatbot by Sameer',
+  title: 'Physical AI and Humanoid Robotics by Sameer',
   tagline: 'Understanding intelligence as an emergent property of embodied systems',
   favicon: 'img/favicon.ico',
 
@@ -34,7 +34,17 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ur'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+      ur: {
+        label: 'اردو',
+        direction: 'rtl',
+      },
+    },
   },
 
   presets: [
@@ -44,17 +54,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/sameerkaleem',
-          // Configure MDX for interactive content
-          remarkPlugins: [
-            // Add any remark plugins for additional markdown processing
-          ],
-          rehypePlugins: [
-            // Add any rehype plugins for HTML processing
-          ],
+          editUrl: 'https://github.com/sameerkaleem',
+          path: 'docs',
+          routeBasePath: 'docs',
         },
         blog: false, // Disable blog functionality as we're creating a textbook
         theme: {
@@ -90,6 +92,25 @@ const config = {
             label: "Sameer's GitHub",
             position: 'right',
           },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
+            type: 'dropdown',
+            label: 'Account',
+            position: 'right',
+            items: [
+              {
+                label: 'Sign In',
+                to: '/login',
+              },
+              {
+                label: 'Sign Up',
+                to: '/register',
+              },
+            ],
+          },
         ],
       },
       footer: {
@@ -100,7 +121,7 @@ const config = {
             items: [
               {
                 label: 'TextBook',
-                to: '/docs/sensing-actuation',
+                to: '/docs/introduction', // Changed to introduction which has both language versions
               },
             ],
           },

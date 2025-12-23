@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.textbookSidebar.category.Physical AI and Humanoid Robotics": {
+    "message": "Physical AI and Humanoid Robotics",
+    "description": "The label for category 'Physical AI and Humanoid Robotics' in sidebar 'textbookSidebar'"
+  },
+  "sidebar.textbookSidebar.doc.Introduction": {
+    "message": "Introduction",
+    "description": "The label for the doc item 'Introduction' in sidebar 'textbookSidebar', linking to the doc introduction"
+  }
+}

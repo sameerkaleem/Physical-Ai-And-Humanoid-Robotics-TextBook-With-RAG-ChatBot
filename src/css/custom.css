@@ -28,3 +28,64 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Language switcher dropdown styles */
+.dropdown__menu {
+  min-width: 120px;
+  background-color: var(--ifm-navbar-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-global-radius);
+  box-shadow: 0 2px 8px var(--ifm-global-shadow-lw);
+}
+
+.dropdown__link {
+  color: var(--ifm-font-color-base);
+  transition: background-color 0.15s ease;
+}
+
+.dropdown__link:hover {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.dropdown__link--active {
+  background-color: var(--ifm-color-emphasis-200);
+  font-weight: bold;
+}
+
+.navbar__link {
+  color: var(--ifm-navbar-link-color);
+}
+
+.navbar__link:hover {
+  color: var(--ifm-navbar-link-hover-color);
+}
+
+/* RTL support for Urdu text */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Language switcher button styling */
+.language-switcher-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.language-switcher-btn:hover {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+/* Specific styling for Urdu text direction */
+.urdu-text {
+  direction: rtl;
+  text-align: right;
+}

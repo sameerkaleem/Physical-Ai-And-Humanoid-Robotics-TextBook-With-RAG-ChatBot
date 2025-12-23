@@ -1,7 +1,8 @@
 {
   "defaultLocale": "en",
   "locales": [
-    "en"
+    "en",
+    "ur"
   ],
   "path": "i18n",
   "currentLocale": "en",
@@ -12,9 +13,19 @@
       "htmlLang": "en",
       "calendar": "gregory",
       "path": "en",
-      "translate": false,
+      "translate": true,
       "url": "https://book.vercel.app",
       "baseUrl": "/"
+    },
+    "ur": {
+      "label": "اردو",
+      "direction": "rtl",
+      "htmlLang": "ur",
+      "calendar": "gregory",
+      "path": "ur",
+      "translate": true,
+      "url": "https://book.vercel.app",
+      "baseUrl": "/ur/"
     }
   }
 }

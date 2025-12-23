@@ -1,0 +1,50 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "صفحہ خراب ہے۔",
+    "description": "The title of the 500 error page"
+  },
+  "theme.NotFound.title": {
+    "message": "صفحہ نہیں ملا",
+    "description": "The title of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "نوٹ",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "ٹپ",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "خطرہ",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "معلومات",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "خبردار",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "ہوم",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "سائڈ بار سکیڑیں",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.common.editThisPage": {
+    "message": "یہ صفحہ تبدیل کریں",
+    "description": "The link label to edit the current page"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "یہ {siteTitle} کا غیر جاری کردہ ورژن ہے۔",
+    "description": "The label used for an unreleased documentation version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "یہ {siteTitle} کا قدیم ورژن ہے جو اب برقرار نہیں رکھا گیا ہے۔",
+    "description": "The label used for an unmaintained documentation version"
+  }
+}

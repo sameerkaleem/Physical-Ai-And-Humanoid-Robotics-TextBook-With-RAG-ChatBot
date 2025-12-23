@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "sensing-actuation/sensing-actuation",
+          "mainDocId": "introduction",
           "docs": [
             {
               "id": "control-loops/control-loops",
@@ -18,6 +18,11 @@
             {
               "id": "emergent-intelligence/emergent-intelligence",
               "path": "/docs/emergent-intelligence/",
+              "sidebar": "textbookSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/docs/introduction",
               "sidebar": "textbookSidebar"
             },
             {
@@ -35,8 +40,8 @@
           "sidebars": {
             "textbookSidebar": {
               "link": {
-                "path": "/docs/sensing-actuation/",
-                "label": "sensing-actuation/sensing-actuation"
+                "path": "/docs/introduction",
+                "label": "Introduction"
               }
             }
           }

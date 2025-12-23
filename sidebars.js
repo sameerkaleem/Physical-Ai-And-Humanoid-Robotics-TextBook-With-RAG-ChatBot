@@ -6,6 +6,11 @@
 const sidebars = {
   textbookSidebar: [
     {
+      type: 'doc',
+      id: 'introduction',
+      label: 'Introduction',
+    },
+    {
       type: 'category',
       label: 'Physical AI and Humanoid Robotics',
       items: [

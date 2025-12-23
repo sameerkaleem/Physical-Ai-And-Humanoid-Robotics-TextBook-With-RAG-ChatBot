@@ -1,0 +1,22 @@
+{
+  "id": "introduction",
+  "title": "Introduction",
+  "description": "This textbook explores the fascinating world of Physical AI and Humanoid Robotics, understanding intelligence as an emergent property of embodied systems.",
+  "source": "@site/docs/introduction.md",
+  "sourceDirName": ".",
+  "slug": "/introduction",
+  "permalink": "/docs/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sameerkaleem/docs/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Introduction"
+  },
+  "sidebar": "textbookSidebar",
+  "next": {
+    "title": "Sensing & Actuation",
+    "permalink": "/docs/sensing-actuation/"
+  }
+}

@@ -37,10 +37,20 @@ export default {
   "i18n": {
     "defaultLocale": "en",
     "locales": [
-      "en"
+      "en",
+      "ur"
     ],
-    "path": "i18n",
-    "localeConfigs": {}
+    "localeConfigs": {
+      "en": {
+        "label": "English",
+        "direction": "ltr"
+      },
+      "ur": {
+        "label": "اردو",
+        "direction": "rtl"
+      }
+    },
+    "path": "i18n"
   },
   "presets": [
     [
@@ -49,8 +59,8 @@ export default {
         "docs": {
           "sidebarPath": "./sidebars.js",
           "editUrl": "https://github.com/sameerkaleem",
-          "remarkPlugins": [],
-          "rehypePlugins": []
+          "path": "docs",
+          "routeBasePath": "docs"
         },
         "blog": false,
         "theme": {
@@ -83,6 +93,27 @@ export default {
           "href": "https://github.com/sameerkaleem",
           "label": "Sameer's GitHub",
           "position": "right"
+        },
+        {
+          "type": "localeDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
+        },
+        {
+          "type": "dropdown",
+          "label": "Account",
+          "position": "right",
+          "items": [
+            {
+              "label": "Sign In",
+              "to": "/login"
+            },
+            {
+              "label": "Sign Up",
+              "to": "/register"
+            }
+          ]
         }
       ],
       "hideOnScroll": false
@@ -95,7 +126,7 @@ export default {
           "items": [
             {
               "label": "TextBook",
-              "to": "/docs/sensing-actuation"
+              "to": "/docs/introduction"
             }
           ]
         },

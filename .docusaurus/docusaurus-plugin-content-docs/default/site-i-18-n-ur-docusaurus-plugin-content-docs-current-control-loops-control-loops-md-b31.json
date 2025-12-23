@@ -1,0 +1,26 @@
+{
+  "id": "control-loops/control-loops",
+  "title": "کنٹرول لوپس",
+  "description": "جسمانی انٹیویشن ( \"کیوں\")",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/control-loops/control-loops.md",
+  "sourceDirName": "control-loops",
+  "slug": "/control-loops/",
+  "permalink": "/ur/docs/control-loops/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sameerkaleem/docs/control-loops/control-loops.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "کنٹرول لوپس"
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "سینسنگ اور ایکٹوایشن",
+    "permalink": "/ur/docs/sensing-actuation/"
+  },
+  "next": {
+    "title": "جسمانی تعامل",
+    "permalink": "/ur/docs/physical-interaction/"
+  }
+}

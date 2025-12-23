@@ -1,0 +1,26 @@
+{
+  "id": "physical-interaction/physical-interaction",
+  "title": "جسمانی تعامل",
+  "description": "جسمانی انٹیویشن ( \"کیوں\")",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/physical-interaction/physical-interaction.md",
+  "sourceDirName": "physical-interaction",
+  "slug": "/physical-interaction/",
+  "permalink": "/ur/docs/physical-interaction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sameerkaleem/docs/physical-interaction/physical-interaction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "جسمانی تعامل"
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "کنٹرول لوپس",
+    "permalink": "/ur/docs/control-loops/"
+  },
+  "next": {
+    "title": "ابھرتی ہوئی ذہانت",
+    "permalink": "/ur/docs/emergent-intelligence/"
+  }
+}

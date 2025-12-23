@@ -1,0 +1,22 @@
+{
+  "id": "introduction",
+  "title": "تعارف",
+  "description": "یہ ٹیکسٹ بک فزیکل ای آئی اور ہیومنوائڈ روبوٹکس کی دلچسپ دنیا کا جائزہ لیتی ہے، ذہانت کو جسمانی نظام کی ایک Emergent خصوصیت کے طور پر سمجھتے ہوئے۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/introduction.md",
+  "sourceDirName": ".",
+  "slug": "/introduction",
+  "permalink": "/ur/docs/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sameerkaleem/docs/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "تعارف"
+  },
+  "sidebar": "textbookSidebar",
+  "next": {
+    "title": "سینسنگ اور ایکٹوایشن",
+    "permalink": "/ur/docs/sensing-actuation/"
+  }
+}

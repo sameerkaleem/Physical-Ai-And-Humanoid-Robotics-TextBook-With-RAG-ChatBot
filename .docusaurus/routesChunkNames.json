@@ -1,38 +1,113 @@
 {
-  "/docs-109": {
-    "__comp": "5e95c892",
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-6a1": {
-    "__comp": "a7bd4aaa",
-    "__props": "0058b4c6"
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
   },
-  "/docs-63e": {
-    "__comp": "a94703ab"
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/login-a8c": {
+    "__comp": "__comp---site-src-pages-login-js-380-710",
+    "__context": {
+      "plugin": "plugin---logina-74-fc3"
+    },
+    "config": "config---login-5-e-9-d49"
+  },
+  "/profile-ef2": {
+    "__comp": "__comp---site-src-pages-profile-jsd-07-cca",
+    "__context": {
+      "plugin": "plugin---logina-74-fc3"
+    },
+    "config": "config---login-5-e-9-d49"
+  },
+  "/register-d3b": {
+    "__comp": "__comp---site-src-pages-register-js-81-f-03a",
+    "__context": {
+      "plugin": "plugin---logina-74-fc3"
+    },
+    "config": "config---login-5-e-9-d49"
+  },
+  "/simple-login-588": {
+    "__comp": "__comp---site-src-pages-simple-login-js-928-3fc",
+    "__context": {
+      "plugin": "plugin---logina-74-fc3"
+    },
+    "config": "config---login-5-e-9-d49"
+  },
+  "/docs-21f": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-966": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-6bd": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/control-loops/-be5": {
-    "__comp": "17896441",
-    "content": "5e4551a2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-control-loops-5-e-4-de9"
   },
   "/docs/emergent-intelligence/-6f5": {
-    "__comp": "17896441",
-    "content": "52cd60ac"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-emergent-intelligence-52-c-dad"
+  },
+  "/docs/introduction-a68": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-introductiona-09-6b4"
   },
   "/docs/physical-interaction/-2d1": {
-    "__comp": "17896441",
-    "content": "d8904aea"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-physical-interaction-d-89-9df"
   },
   "/docs/sensing-actuation/-256": {
-    "__comp": "17896441",
-    "content": "3720ef4f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sensing-actuation-372-13b"
   },
   "/-2e1": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---logina-74-fc3"
     },
-    "config": "5e9f5e1a"
+    "config": "config---login-5-e-9-d49"
   }
 }

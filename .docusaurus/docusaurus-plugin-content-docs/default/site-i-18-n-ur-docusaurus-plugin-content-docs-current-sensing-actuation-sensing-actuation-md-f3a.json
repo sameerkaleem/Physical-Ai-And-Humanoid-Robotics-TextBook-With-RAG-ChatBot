@@ -1,0 +1,26 @@
+{
+  "id": "sensing-actuation/sensing-actuation",
+  "title": "سینسنگ اور ایکٹوایشن",
+  "description": "جسمانی انٹیویشن ( \"کیوں\")",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/sensing-actuation/sensing-actuation.md",
+  "sourceDirName": "sensing-actuation",
+  "slug": "/sensing-actuation/",
+  "permalink": "/ur/docs/sensing-actuation/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sameerkaleem/docs/sensing-actuation/sensing-actuation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "سینسنگ اور ایکٹوایشن"
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/ur/docs/introduction"
+  },
+  "next": {
+    "title": "کنٹرول لوپس",
+    "permalink": "/ur/docs/control-loops/"
+  }
+}

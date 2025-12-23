@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "فزیکل ای آئی ٹیکسٹ بک",
+    "description": "Navbar title"
+  },
+  "item.label.TextBook": {
+    "message": "ٹیکسٹ بک",
+    "description": "Navbar item with label TextBook"
+  },
+  "item.label.Sameer's GitHub": {
+    "message": "سمیر کا گیتھب",
+    "description": "Navbar item with label Sameer's GitHub"
+  },
+  "logo.alt": {
+    "message": "فزیکل ای آئی لوگو",
+    "description": "Logo alt text"
+  }
+}
