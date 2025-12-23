@@ -10,6 +10,8 @@ This is a comprehensive textbook on Physical AI and Humanoid Robotics featuring 
 - Integrated AI chatbot that can answer questions about the textbook content
 - Context-aware responses based on selected text
 - Modern, responsive design using Docusaurus
+- 
+<img src="TextBook-With-Urdu-Translation.png" alt="" width="800">
 
 ## Installation
 
